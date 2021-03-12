@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2017 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magOverlayImage"
+    android:visibility="gone"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/mag_overlay_bg"
+    android:src="@drawable/mag_disabled" />

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dialog.wearables.fragments.AlertingRulesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mainView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="4"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/button_active_rules"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/md_green_A700"
+                        android:background="@drawable/rounded_shape"
+                        android:text="0 Active rules" />
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.6"/>
+
+                    <Button
+                        android:id="@+id/button_sync_rule"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.35"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:background="@drawable/rounded_shape"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:text="Sync" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:background="@color/background_grey_dark"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.55"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/rule_name_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:textStyle="bold"
+                        android:text="Rule name" />
+
+                    <EditText
+                        android:id="@+id/rule_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_weight="1"
+                        android:hint="alerting rule name"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.45"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/button__tag_of"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:textStyle="bold"
+                        android:text="Device" />
+                    <Spinner
+                        android:id="@+id/devices_spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_weight="1.6"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@color/background_grey_dark"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.6"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/button__tag_if"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:text="IF" />
+                    <Spinner
+                        android:id="@+id/sensors_spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:entries="@array/sensor_array"
+                        android:layout_weight="1.2"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/button__tag_has_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:textStyle="bold"
+                        android:text="Becomes" />
+
+                    <Spinner
+                        android:id="@+id/comparison_operators_spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:entries="@array/comparison_operators"
+                        android:layout_weight="0.6"/>
+                    <EditText
+                        android:id="@+id/rule_value"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:hint="0.0"/>
+                    <Button
+                        android:id="@+id/button__tag_content"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:textStyle="bold"
+                        android:text="ºC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:id="@+id/button__tag_mail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.4"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/md_deep_orange_300"
+                        android:background="@drawable/rounded_shape"
+                        android:text="Then send email to" />
+                    <EditText
+                        android:id="@+id/rule_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_weight="0.6"
+                        android:hint="email"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.3"
+                        />
+                    <Button
+                        android:id="@+id/button_apply_rule"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:textStyle="bold"
+                        android:layout_weight="0.7"
+                        android:textColor="#fff"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:background="@drawable/rounded_shape"
+                        android:text="Apply Rule" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/proximityView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/back">
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/proximityImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:iiv_icon="gmd-touch-app"
+        app:iiv_color="@color/md_blue_grey_100" />
+
+    <TextView
+        android:id="@+id/proximityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/sensor_text_margin"
+        android:text="@string/label_proximity"
+        android:textColor="@color/text"
+        android:textSize="@dimen/sensor_text_label_size" />
+
+    <TextView
+        android:id="@+id/proximityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/sensor_text_margin"
+        android:text="@string/value_not_available"
+        android:textColor="@color/text"
+        android:textSize="@dimen/sensor_text_value_size"
+        android:textStyle="bold" />
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:visibility="gone"
+        android:id="@+id/proximityBatteryWarning"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/proximityTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        app:iiv_icon="gmd-battery-alert"
+        app:iiv_color="@color/md_red_900" />
+
+</RelativeLayout>

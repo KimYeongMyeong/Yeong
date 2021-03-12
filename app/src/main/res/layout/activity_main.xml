@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <include layout="@layout/view_progress_container"/>
+
+    <LinearLayout
+        android:id="@+id/view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_large"
+            android:gravity="center"
+            android:background="#EFEFEF"
+            android:text="@string/text_start_hint"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textIsSelectable="false"/>
+
+        <View android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffcccccc"/>
+
+        <!-- case ID input button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/case_id"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:hint="Case ID" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="Input"
+                android:onClick="clickSetBt"/>
+
+            android:orientation="vertical"
+        </LinearLayout>
+        <!-- case ID input button -->
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/deviceListView"/>
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/empty_device_list"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="false"/>
+
+    </LinearLayout>
+</RelativeLayout>

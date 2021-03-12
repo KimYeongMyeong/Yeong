@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dialog.wearables">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".IotSensorsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:resizeableActivity="false"
+        tools:ignore="UnusedAttribute" >
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|navigation" />
+        <activity
+            android:name=".activities.MenuHolderActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:theme="@style/DrawerTheme" />
+        <activity
+            android:name=".activities.CloudActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|navigation" />
+        <activity
+            android:name=".activities.InfoActivity" />
+
+        <service
+            android:name="org.eclipse.paho.android.service.MqttService">
+        </service>
+
+        <!-- Cloud DataManager service-->
+        <service
+            android:name="com.dialog.wearables.cloud.DataManager"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+
+    </application>
+
+</manifest>

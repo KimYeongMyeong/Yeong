@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/airQualityView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/back">
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/airQualityImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:iiv_icon="gmd-blur-on"
+        app:iiv_color="@color/md_blue_grey_100" />
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/airQualityChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/sensor_text_margin"
+        android:text="@string/label_air_quality"
+        android:textColor="@color/text"
+        android:textSize="@dimen/sensor_text_label_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/sensor_text_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/airQualityLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/value_not_available"
+            android:textColor="@color/text"
+            android:textSize="@dimen/sensor_text_value_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/airQualityAccuracyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</RelativeLayout>

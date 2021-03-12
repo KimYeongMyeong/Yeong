@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="calSettings"
+        android:title="Calibration Settings">
+
+        <ListPreference
+            android:entries="@array/magnetometer_calibration_mode_labels"
+            android:entryValues="@array/magnetometer_calibration_mode_values"
+            android:key="calCurrentCalibration"
+            android:summary="%s"
+            android:enabled="false"
+            android:shouldDisableView="false"
+            android:persistent="false"
+            android:title="@string/label_current_calibration_mode" />
+
+        <SwitchPreference
+            android:key="calApply"
+            android:title="@string/cal_apply"
+            android:enabled="false"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="calMatrixApply"
+            android:title="@string/cal_matrix_apply"
+            android:enabled="false"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="calUpdate"
+            android:title="@string/cal_update"
+            android:enabled="false"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="calMatrixUpdate"
+            android:title="@string/cal_matrix_update"
+            android:enabled="false"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="calInitialiseStaticCoeffs"
+            android:title="@string/cal_static_coeffs"
+            android:enabled="false"
+            android:defaultValue="true" />
+
+        <EditTextPreference
+            android:key="cal_reference_magnitude_key"
+            android:inputType="numberSigned"
+            android:title="@string/cal_ref_magnitude"
+            android:enabled="false"
+            android:dialogTitle="@string/cal_ref_magnitude" />
+
+        <EditTextPreference
+            android:key="cal_magnitude_range_key"
+            android:inputType="numberSigned"
+            android:title="@string/cal_magnitude_range"
+            android:enabled="false"
+            android:dialogTitle="@string/cal_magnitude_range" />
+
+        <EditTextPreference
+            android:key="cal_mu_key"
+            android:inputType="numberSigned"
+            android:title="@string/cal_mu"
+            android:enabled="false"
+            android:dialogTitle="@string/cal_mu" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Actions">
+        <SwitchPreference
+            android:key="calStateOverlay"
+            android:title="@string/cal_state_overlay"
+            android:enabled="true"
+            android:defaultValue="true" />
+        <Preference android:title="@string/cal_load_vecmat"
+            android:key="calLoadVectorMatrix"
+            android:enabled="false" />
+        <Preference android:title="@string/cal_save_vecmat"
+            android:key="calSaveVectorMatrix"
+            android:enabled="false" />
+        <Preference android:title="@string/store_to_nv"
+            android:key="calStoreConfigNV"
+            android:enabled="false" />
+        <Preference android:title="@string/reset_cur_set"
+            android:key="calResetCurrSet"
+            android:enabled="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

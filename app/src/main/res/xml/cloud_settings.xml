@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <SwitchPreference
+            android:enabled="true"
+            android:key="@string/pref_switch_cloud_enable_key"
+            android:title="@string/pref_switch_cloud_enable" />
+        <SwitchPreference
+            android:enabled="false"
+            android:key="@string/pref_switch_webapplink_key"
+            android:title="@string/pref_switch_webapplink" />
+        <EditTextPreference
+            android:dialogTitle="Enter Email"
+            android:key="@string/pref_set_useremail_key"
+            android:summary="Enter Your Email"
+            android:title="@string/pref_set_useremail" />
+        <Preference
+            android:enabled="false"
+            android:key="@string/pref_button_sendlink_key"
+            android:title="@string/pref_button_sendlink" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="IoT Applications" android:key="@string/pref_category_cloud_iotapps_key">
+        <SwitchPreference
+            android:enabled="false"
+            android:key="@string/pref_switch_cloud_historical_key"
+            android:title="@string/pref_switch_cloud_historical" />
+        <SwitchPreference
+            android:enabled="false"
+            android:key="@string/pref_switch_cloud_alert_key"
+            android:title="@string/pref_switch_cloud_alert" />
+        <SwitchPreference
+            android:enabled="false"
+            android:key="@string/pref_switch_cloud_control_key"
+            android:title="@string/pref_switch_cloud_control" />
+        <SwitchPreference
+            android:enabled="true"
+            android:key="@string/pref_switch_cloud_assettracking_key"
+            android:title="@string/pref_switch_cloud_assettracking" />
+        <SwitchPreference
+            android:enabled="true"
+            android:key="@string/pref_switch_cloud_3dgame_key"
+            android:title="@string/pref_switch_cloud_3dgame" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_ifttt_apikey">
+        <SwitchPreference
+            android:enabled="true"
+            android:key="@string/pref_switch_ifttt_enable_key"
+            android:title="@string/pref_switch_ifttt_enable" />
+        <EditTextPreference
+            android:key="@string/pref_apply_ifttt_apikey_key"
+            android:inputType="text"
+            android:title="@string/pref_apply_iftttapikey"
+            android:enabled="true"
+            android:dialogTitle="@string/pref_ifttt_apikey_dialog_title" />
+        <Preference
+            android:title="@string/pref_button_set_iftttapikey"
+            android:key="@string/pref_button_set_iftttapikey_key"/>
+        <Preference
+            android:title="@string/pref_button_sync_iftttapikey"
+            android:key="@string/pref_button_sync_iftttapikey_key"/>
+
+        <EditTextPreference
+            android:dialogTitle="@string/pref_set_trigger_interval"
+            android:key="@string/pref_set_trigger_interval_key"
+            android:summary="Trigger interval"
+            android:title="@string/pref_set_trigger_interval" />
+    </PreferenceCategory>
+</PreferenceScreen>

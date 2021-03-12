@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/compassView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/back">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/compassShape"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true" />
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/compassChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/compassText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/sensor_text_margin"
+        android:text="@string/label_compass"
+        android:textColor="@color/text"
+        android:textSize="@dimen/sensor_text_label_size" />
+
+    <TextView
+        android:id="@+id/compassLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/sensor_text_margin"
+        android:text="@string/value_not_available"
+        android:textColor="@color/text"
+        android:textSize="@dimen/sensor_text_value_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/calibratedImage"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/compassText"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/mag_not_calibrated"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/magWarningImage"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/compassText"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/mag_warning_red"
+        android:visibility="gone" />
+
+</RelativeLayout>

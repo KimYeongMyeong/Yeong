@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Settings" android:key="prefSettingsCat">
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/imu_sensor_combination_labels"
+            android:entryValues="@array/imu_sensor_combination_values"
+            android:key="prefSensorCombination"
+            android:summary="%s"
+            android:title="@string/label_sensor_combination" />
+
+        <SwitchPreference
+            android:enabled="false"
+            android:defaultValue="true"
+            android:key="prefEnvironmentalSensorEnabled"
+            android:title="@string/label_environmental_sensor_enabled" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/accelerometer_range_labels"
+            android:entryValues="@array/accelerometer_range_values"
+            android:key="prefAccelerometerRange"
+            android:summary="%s"
+            android:title="@string/label_accelerometer_range" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/accelerometer_rate_labels"
+            android:entryValues="@array/accelerometer_rate_values"
+            android:key="prefAccelerometerRate"
+            android:summary="%s"
+            android:title="@string/label_accelerometer_rate" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/gyroscope_range_labels"
+            android:entryValues="@array/gyroscope_range_values"
+            android:key="prefGyroscopeRange"
+            android:summary="%s"
+            android:title="@string/label_gyroscope_range" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/gyroscope_rate_labels"
+            android:entryValues="@array/gyroscope_rate_values"
+            android:key="prefGyroscopeRate"
+            android:summary="%s"
+            android:title="@string/label_gyroscope_rate" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/magnetometer_rate_labels"
+            android:entryValues="@array/magnetometer_rate_values"
+            android:key="prefMagnetometerRate"
+            android:summary="%s"
+            android:title="@string/label_magnetometer_rate" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/environmental_rate_labels"
+            android:entryValues="@array/environmental_rate_values"
+            android:key="prefEnvironmentalRate"
+            android:summary="%s"
+            android:title="@string/label_environmental_rate" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/sensor_fusion_rate_labels"
+            android:entryValues="@array/sensor_fusion_rate_values"
+            android:key="prefSensorFusionRate"
+            android:summary="%s"
+            android:title="@string/label_sensor_fusion_rate" />
+
+        <SwitchPreference
+            android:enabled="false"
+            android:defaultValue="true"
+            android:key="prefSensorFusionRawEnabled"
+            android:title="@string/pref_sensor_fusion_raw_enabled" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/calibration_mode_labels"
+            android:entryValues="@array/calibration_mode_values"
+            android:key="prefCalibrationMode"
+            android:summary="%s"
+            android:title="@string/label_calibration_mode" />
+
+        <ListPreference
+            android:enabled="false"
+            android:entries="@array/auto_calibration_mode_labels"
+            android:entryValues="@array/auto_calibration_mode_values"
+            android:key="prefAutoCalibrationMode"
+            android:summary="%s"
+            android:title="@string/label_auto_calibration_mode" />
+
+        <ListPreference
+            android:enabled="true"
+            android:entries="@array/temperature_unit_labels"
+            android:entryValues="@array/temperature_unit_values"
+            android:defaultValue="0"
+            android:key="prefTemperatureUnit"
+            android:summary="%s"
+            android:title="@string/label_temperature_unit" />
+
+        <Preference
+            android:enabled="false"
+            android:shouldDisableView="false"
+            android:key="prefFirmwareVersion"
+            android:selectable="false"
+            android:summary=""
+            android:title="Firmware version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Actions">
+        <SwitchPreference
+            android:enabled="true"
+            android:defaultValue="false"
+            android:key="prefLogEnabled"
+            android:title="@string/label_wearable_logger" />
+
+        <Preference
+            android:enabled="false"
+            android:key="pref_reset_to_defaults"
+            android:title="@string/pref_reset_to_defaults" />
+
+        <Preference
+            android:enabled="false"
+            android:key="pref_read_conf_from_nv"
+            android:title="@string/pref_read_conf_from_nv" />
+
+        <Preference
+            android:enabled="false"
+            android:key="pref_write_conf_to_nv"
+            android:title="@string/pref_write_conf_to_nv" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

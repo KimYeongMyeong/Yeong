@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:id="@+id/alertDialogLoginForm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+            <!-- User name row. -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_medium">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:hint="Pin">
+
+                    <EditText
+                        android:id="@+id/dialog_form_pin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""/>
+                </android.support.design.widget.TextInputLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_medium">
+                <Button
+                    android:id="@+id/dialog_form_add_mobile_to_existing_account_button"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:background="@drawable/rounded_shape"
+                    android:text="Add to an existing account" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_medium">
+                <Button
+                    android:id="@+id/dialog_form_create_new_account_button"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:background="@drawable/rounded_shape"
+                    android:text="Create new account" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margin_medium">
+                <Button
+                    android:id="@+id/dialog_form_cancel"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:textColor="#fff"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/rounded_shape"
+                    android:text="Cancel" />
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

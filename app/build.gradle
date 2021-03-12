@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    configurations {
+        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+    }
+    compileSdkVersion 26
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.dialog.wearables"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 20
+        versionName "3.250.14"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/ASL2.0'
+    }
+
+    repositories {
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-snapshots/"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation('com.mikepenz:materialdrawer:5.9.5@aar') {
+        transitive = true
+    }
+    implementation 'com.mikepenz:iconics-core:2.9.5@aar'
+    implementation 'com.mikepenz:iconics-views:2.9.5@aar'
+    implementation 'com.mikepenz:google-material-typeface:2.2.0.1.original@aar'
+    implementation 'com.jakewharton:butterknife:5.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    annotationProcessor 'com.jakewharton:butterknife:5.1.1'
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.squareup:otto:1.3.5'
+    implementation 'log4j:log4j:1.2.16'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:support-v13:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'org.ini4j:ini4j:0.5.4'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation project(path: ':avsclient')
+    implementation project(path: ':speechutils')
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+}

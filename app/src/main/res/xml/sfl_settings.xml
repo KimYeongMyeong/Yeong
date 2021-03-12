@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Sensor Fusion Settings">
+        <EditTextPreference
+            android:key="sfl_beta_a"
+            android:inputType="numberSigned"
+            android:title="@string/sfl_beta_a"
+            android:enabled="false"
+            android:dialogTitle="@string/sfl_beta_a" />
+        <EditTextPreference
+            android:key="sfl_beta_m"
+            android:inputType="numberSigned"
+            android:title="@string/sfl_beta_m"
+            android:enabled="false"
+            android:dialogTitle="@string/sfl_beta_m" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Actions">
+        <Preference android:title="@string/store_to_nv"
+            android:key="calStoreConfigNV"
+            android:enabled="false"/>
+        <Preference android:title="@string/reset_cur_set"
+            android:key="calResetCurrSet"
+            android:enabled="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

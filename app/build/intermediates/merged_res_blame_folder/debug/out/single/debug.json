@@ -1,0 +1,582 @@
+[
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cic_disclaimer.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\cic_disclaimer.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_ifttt.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\settings_ifttt.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_dialogwatch_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\dialogwatch_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_cube_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\cube_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_calibrated_red.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_calibrated_red.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_acc_settings.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\acc_settings.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_acc.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_acc.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sensor.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_sensor.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_basic.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_basic.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_iot585_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\iot585_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_compass.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_compass.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_splash.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ifttt_settings.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_ifttt_settings.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings_ifttt.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\settings_ifttt.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon_s.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\app_icon_s.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings_acc.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\settings_acc.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_humidity.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_humidity.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_dialogwatch_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\dialogwatch_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_temp_clip.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_temp_clip.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dialog_list.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_dialog_list.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_switch_layout.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\switch_layout.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_good.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_good.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_calibration.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\settings_calibration.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_ifttt.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\settings_ifttt.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_temp.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_temp.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_calibration.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_calibration.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_splash_bg.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\splash_bg.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_acc_settings.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_acc_settings.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_init.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_init.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_ok.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_ok.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_progress_container.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\view_progress_container.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_calibrated.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_calibrated.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_dialog3_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\dialog3_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_temp_outline.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_temp_outline.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_temp_filled.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_temp_filled.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\anim\\animate.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu_holder.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\activity_menu_holder.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_basic_settings_wearable.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\basic_settings_wearable.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_air_quality.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_air_quality.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cic_info.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\cic_info.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_pressure.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_pressure.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_basic_settings_iot_dongle.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\basic_settings_iot_dongle.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_humid_clip.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_humid_clip.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_magneto_state_overlay.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\magneto_state_overlay.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watch_texture.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\watch_texture.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_icon_s.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\app_icon_s.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_gyroscope.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_gyroscope.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rounded_shape.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\rounded_shape.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_error.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_error.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_logo.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\dialog_logo.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_range_seekbar_preference_dialog.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\range_seekbar_preference_dialog.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_ambient_light.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_ambient_light.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_sensor_fusion.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_sensor_fusion.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_control_rules.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_control_rules.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calimage_iot_plus.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\calimage_iot_plus.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_humid_filled.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_humid_filled.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_cube_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\cube_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_calibration_settings_v1.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\calibration_settings_v1.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_acc.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\settings_acc.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_iot585_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\iot585_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_dialog_blue.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\logo_dialog_blue.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_cloud_settings.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\cloud_settings.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\menu_sensor.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\menu\\sensor.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_list_item.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\settings_list_item.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_powered_by_dialog.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\powered_by_dialog.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_arrow_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\arrow_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_accelerometer.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_accelerometer.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_settings.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_settings.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_basic_settings_iot_plus.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\basic_settings_iot_plus.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cic_info_selected.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\cic_info_selected.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ring.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\ring.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_splash_bg.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\splash_bg.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings_sfl.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\settings_sfl.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_calibration.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\settings_calibration.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_info.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_info.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_splash_bg.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\splash_bg.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cloud.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_cloud.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_bad.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_bad.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_app_info.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\app_info.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_spinner_item.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calimage.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\calimage.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_proximity.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_proximity.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_text.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\splash_text.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_gyro_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\gyro_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_overlay_bg.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_overlay_bg.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_gyro_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\gyro_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_dialog.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_dialog.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_basic.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\settings_basic.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alerting_rules.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_alerting_rules.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sensor_env.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_sensor_env.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings_calibration.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\settings_calibration.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_temperature.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_temperature.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_disconnect_drawer_button.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\disconnect_drawer_button.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_warning_red.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_warning_red.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sensor_fusion.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_sensor_fusion.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pattern.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\pattern.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_scan_item_row.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\scan_item_row.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_585.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_585.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_sfl.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\settings_sfl.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cic_disclaimer_selected.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\cic_disclaimer_selected.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_arrow_obj.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\arrow_obj"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_cloud.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_cloud.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_not_calibrated.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_not_calibrated.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_disclaimer.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_disclaimer.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_app_icon_s.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\app_icon_s.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\raw_dialog3_mtl.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\raw\\dialog3_mtl"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_calibration_settings_v2.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\calibration_settings_v2.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_sfl.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\settings_sfl.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_splash_bg.jpg.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\splash_bg.jpg"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fragment.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_alexa.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_alexa.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_iot585_texture.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\iot585_texture.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sensor_imu.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_sensor_imu.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_humid.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_humid.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_disabled.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_disabled.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_asset_tracking.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_asset_tracking.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_line.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\splash_line.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_cloud.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_cloud.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\xml_sfl_settings.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\xml\\sfl_settings.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_ifttt.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_ifttt.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_view_pressure.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\sensor_view_pressure.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_690.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_690.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_humid_outline.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_humid_outline.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_acc.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xxhdpi\\settings_acc.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_sensor.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_sensor.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_icon_s.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\app_icon_s.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_sfl.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-xhdpi\\settings_sfl.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_580.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_580.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_basic.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-mdpi\\settings_basic.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_680.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\icon_680.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_settings_basic.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable-hdpi\\settings_basic.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_historical.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\fragment_historical.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\anim_rotate.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\back.xml"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mag_warning.png.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\drawable\\mag_warning.png"
+    },
+    {
+        "merged": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_custom_dialog.xml.flat",
+        "source": "D:\\healthband-ym_0311\\healthband-ym_0311\\app\\src\\main\\res\\layout\\layout_custom_dialog.xml"
+    }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    style="?android:attr/spinnerItemStyle"
+    android:singleLine="true"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:textSize="15sp"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="2dp"/>

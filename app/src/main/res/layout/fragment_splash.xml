@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2017 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg">
+
+    <ImageView
+        android:id="@+id/appIconS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_above="@+id/appName"
+        android:src="@drawable/app_icon_s" />
+
+    <ImageView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/splash_text" />
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/poweredLogo"
+        android:src="@drawable/splash_line" />
+
+    <ImageView
+        android:id="@+id/poweredLogo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/powered_by_dialog" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2017 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Information" >
+        <Preference
+            android:key="FirmwareVersion"
+            android:title="Chip firmware version"
+            android:summary="N/A"
+            android:enabled="false"
+            android:shouldDisableView="false" />
+        <Preference
+            android:key="AppVersion"
+            android:title="App version"
+            android:summary="N/A"
+            android:enabled="false"
+            android:shouldDisableView="false" />
+        <Preference
+            android:key="InfoSendMail"
+            android:title="More information?"
+            android:summary="bluetooth.support@diasemi.com" />
+    </PreferenceCategory>
+</PreferenceScreen>

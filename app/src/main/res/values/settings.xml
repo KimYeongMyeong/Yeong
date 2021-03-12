@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<resources>
+
+    <string-array name="sensor_fusion_combination_labels">
+        <item>Gyroscope</item>
+        <item>Gyroscope + Accelerometer</item>
+        <item>Accelerometer + Magnetometer</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="sensor_fusion_combination_values">
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="imu_sensor_combination_labels">
+        <item>None</item>
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Gyroscope + Accelerometer</item>
+        <item>Magnetometer</item>
+        <item>Accelerometer + Magnetometer</item>
+        <item>Gyroscope + Magnetometer</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="imu_sensor_combination_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="imu_sensor_combination_labels_585">
+        <item>None</item>
+        <item>Accelerometer</item>
+        <item>Gyroscope</item>
+        <item>Gyroscope + Accelerometer</item>
+        <item>Accelerometer + Magnetometer</item>
+        <item>Gyroscope + Magnetometer</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="imu_sensor_combination_values_585">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="operation_mode_labels">
+        <item>Sensor Fusion</item>
+        <item>Sensor Fusion + Integration Engine</item>
+        <item>Sensor Fusion + Raw</item>
+        <item>Integration Engine</item>
+        <item>Raw</item>
+    </string-array>
+    <string-array name="operation_mode_values">
+        <item>10</item>
+        <item>12</item>
+        <item>11</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="accelerometer_range_labels">
+        <item>2G</item>
+        <item>4G</item>
+        <item>8G</item>
+        <item>16G</item>
+    </string-array>
+    <string-array name="accelerometer_range_values">
+        <item>3</item>
+        <item>5</item>
+        <item>8</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="accelerometer_range_values_585">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="accelerometer_rate_labels">
+        <item>0.78Hz</item>
+        <item>1.56Hz</item>
+        <item>3.12Hz</item>
+        <item>6.25Hz</item>
+        <item>12.5Hz</item>
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="accelerometer_rate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="accelerometer_rate_labels_585">
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+        <item>200Hz</item>
+        <item>1kHz</item>
+    </string-array>
+    <string-array name="accelerometer_rate_values_585">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="accelerometer_rate_labels_585_sfl_disabled">
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="accelerometer_rate_values_585_sfl_disabled">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="gyroscope_range_labels">
+        <item>2000 deg/sec</item>
+        <item>1000 deg/sec</item>
+        <item>500 deg/sec</item>
+        <item>250 deg/sec</item>
+        <item>125 deg/sec</item>
+    </string-array>
+    <string-array name="gyroscope_range_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="gyroscope_rate_labels">
+        <item>0.78Hz</item>
+        <item>1.56Hz</item>
+        <item>3.12Hz</item>
+        <item>6.25Hz</item>
+        <item>12.5Hz</item>
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="gyroscope_rate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="gyroscope_rate_labels_585">
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+        <item>200Hz</item>
+        <item>1kHz</item>
+    </string-array>
+    <string-array name="gyroscope_rate_values_585">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="gyroscope_rate_labels_585_sfl_disabled">
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="gyroscope_rate_values_585_sfl_disabled">
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="magnetometer_rate_labels">
+        <item>Accelerometer Rate</item>
+        <item>Accelerometer Rate / 2</item>
+        <item>Accelerometer Rate / 4</item>
+        <item>Accelerometer Rate / 8</item>
+    </string-array>
+    <string-array name="magnetometer_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="magnetometer_rate_labels_680">
+        <item>0.78Hz</item>
+        <item>1.56Hz</item>
+        <item>3.12Hz</item>
+        <item>6.25Hz</item>
+        <item>12.5Hz</item>
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="magnetometer_rate_values_680">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="environmental_rate_labels">
+        <item>0.5Hz</item>
+        <item>1Hz</item>
+        <item>2Hz</item>
+    </string-array>
+    <string-array name="environmental_rate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="environmental_rate_labels_585">
+        <item>0.33Hz</item>
+        <item>0.5Hz</item>
+        <item>1Hz</item>
+        <item>2Hz</item>
+    </string-array>
+    <string-array name="environmental_rate_values_585">
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="sensor_fusion_rate_labels">
+        <item>10Hz</item>
+        <item>15Hz</item>
+        <item>20Hz</item>
+        <item>25Hz</item>
+    </string-array>
+    <string-array name="sensor_fusion_rate_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="sensor_fusion_rate_labels_680">
+        <item>0.78Hz</item>
+        <item>1.56Hz</item>
+        <item>3.12Hz</item>
+        <item>6.25Hz</item>
+        <item>12.5Hz</item>
+        <item>25Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="sensor_fusion_rate_values_680">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="sensor_fusion_rate_labels_585">
+        <item>10Hz</item>
+        <item>25Hz</item>
+        <item>50Hz</item>
+        <item>100Hz</item>
+    </string-array>
+    <string-array name="sensor_fusion_rate_values_585">
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="calibration_mode_labels">
+        <item>None</item>
+        <item>Static</item>
+        <item>Continuous Auto</item>
+        <item>One-Shot Auto</item>
+    </string-array>
+    <string-array name="calibration_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="auto_calibration_mode_labels">
+        <item>Basic</item>
+        <item>SmartFusion</item>
+    </string-array>
+    <string-array name="auto_calibration_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="gas_rate_labels">
+        <item>Low power</item>
+        <item>Ultra low power</item>
+    </string-array>
+    <string-array name="gas_rate_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="proximity_ambient_light_mode_labels">
+        <item>OFF</item>
+        <item>Interrupt</item>
+        <item>Polling</item>
+    </string-array>
+    <string-array name="proximity_ambient_light_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="proximity_ambient_light_rate_labels">
+        <item>0.2Hz</item>
+        <item>0.5Hz</item>
+        <item>1Hz</item>
+        <item>2Hz</item>
+        <item>5Hz</item>
+        <item>10Hz</item>
+    </string-array>
+    <string-array name="proximity_ambient_light_rate_values">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="accelerometer_calibration_mode_labels">
+        <item>None</item>
+        <item>Static</item>
+        <item>One-Shot Auto</item>
+        <item>One-Shot Auto (SmartFusion)</item>
+    </string-array>
+    <string-array name="accelerometer_calibration_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="gyroscope_calibration_mode_labels">
+        <item>None</item>
+        <item>Static</item>
+        <item>Continuous Auto (SmartFusion)</item>
+        <item>One-Shot Auto</item>
+        <item>One-Shot Auto (SmartFusion)</item>
+    </string-array>
+    <string-array name="gyroscope_calibration_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="magnetometer_calibration_mode_labels">
+        <item>None</item>
+        <item>Static</item>
+        <item>Continuous Auto</item>
+        <item>Continuous Auto (SmartFusion)</item>
+        <item>One-Shot Auto</item>
+        <item>One-Shot Auto (SmartFusion)</item>
+    </string-array>
+    <string-array name="magnetometer_calibration_mode_values">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="temperature_unit_labels">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="temperature_unit_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

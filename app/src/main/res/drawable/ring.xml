@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thickness="20dp"
+    android:innerRadius="80dp"
+    android:useLevel="false">
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+    <gradient
+        android:startColor="#EF5350"
+        android:centerColor="#E57373"
+        android:endColor="#EF9A9A" />
+</shape>

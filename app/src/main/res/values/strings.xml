@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<resources>
+
+    <string name="app_name">IoT Sensors</string>
+    <string name="dialog_semiconductor">Dialog Semiconductor</string>
+
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop_scan">Stop Scan</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_cloud">Cloud</string>
+    <string name="menu_cloud_settings">Cloud Settings</string>
+    <string name="text_scanning">Scanning&#8230;</string>
+    <string name="text_connecting">Connecting&#8230;</string>
+    <string name="empty_device_list">No devices found</string>
+    <string name="text_start_hint">Please press the SCAN button to search for devices.</string>
+
+    <string name="drawer_iot_sensors">IoT Sensors</string>
+    <string name="drawer_env_sensors">Environmental Sensors</string>
+    <string name="drawer_imu_sensors">IMU Sensors</string>
+    <string name="drawer_sensor_fusion">Sensor fusion</string>
+    <string name="drawer_cloud">Cloud</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_sync_clock">Sync Clock</string>
+    <string name="drawer_reboot_device">Reboot Device</string>
+    <string name="drawer_information">Information</string>
+    <string name="drawer_disclaimer">Disclaimer</string>
+    <string name="drawer_disconnect">Disconnect</string>
+    <string name="drawer_magnetometer">Magnetometer</string>
+
+    <string name="drawer_mag_status_unknown">Status: Unknown</string>
+    <string name="drawer_mag_status_disabled">Status: Disabled</string>
+    <string name="drawer_mag_status_init">Status: Init</string>
+    <string name="drawer_mag_status_bad">Status: Bad</string>
+    <string name="drawer_mag_status_ok">Status: OK</string>
+    <string name="drawer_mag_status_good">Status: Good</string>
+    <string name="drawer_mag_status_error">Status: Error</string>
+
+    <string name="permission_rationale">IoT Sensors needs access to the device\'s storage in order to save/load config files and create log files and access to location information in order to scan for Bluetooth Smart devices.</string>
+    <string name="location_permission_rationale">Access to location information is required in order to scan for Bluetooth Smart devices.</string>
+    <string name="storage_permission_rationale">Access to the device\'s storage is required in order to save/load config files and create log files.</string>
+    <string name="storage_access_denied">Storage access denied.</string>
+    <string name="no_location_services_title">Location Services Disabled</string>
+    <string name="no_location_services_msg">It may be required to enable the Location Services on your device in order to scan for Bluetooth Smart devices.</string>
+    <string name="no_location_services_scan">Continue</string>
+    <string name="enable_location_services">Enable</string>
+    <string name="service_not_found_title">Missing IoT Sensors Service</string>
+    <string name="service_not_found_msg">This device does not support the Dialog IoT Sensors service. If the device was previously used with different functionality (e.g. SmartTag), you may need to unpair it and/or restart Bluetooth in system settings.</string>
+
+    <string name="label_temperature">Temperature</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_ambient_light">Ambient Light</string>
+    <string name="label_air_quality">Air Quality</string>
+    <string name="label_proximity">Proximity</string>
+    <string name="label_accelerometer">Accelerometer</string>
+    <string name="label_accelerometer_integration">δV</string>
+    <string name="label_gyroscope">Gyroscope</string>
+    <string name="label_gyroscope_integration_angle">δθ</string>
+    <string name="label_gyroscope_integration_quaternion">δQ</string>
+    <string name="label_compass">Compass</string>
+    <string name="value_not_available">N/A</string>
+    <string name="compass_heading_n">N</string>
+    <string name="compass_heading_s">S</string>
+    <string name="compass_heading_e">E</string>
+    <string name="compass_heading_w">W</string>
+    <string name="compass_heading_ne">NE</string>
+    <string name="compass_heading_nw">NW</string>
+    <string name="compass_heading_se">SE</string>
+    <string name="compass_heading_sw">SW</string>
+    <string name="value_proximity_on">ON</string>
+    <string name="value_proximity_off">OFF</string>
+    <string name="value_air_quality_good">Good</string>
+    <string name="value_air_quality_average">Moderate</string>
+    <string name="value_air_quality_little_bad">Unhealthy (sensitive)</string>
+    <string name="value_air_quality_bad">Unhealthy</string>
+    <string name="value_air_quality_very_bad">Highly Unhealthy</string>
+    <string name="value_air_quality_worst">Hazardous</string>
+    <string name="air_quality_accuracy_unreliable">Unreliable</string>
+    <string name="air_quality_accuracy_low">Low Accuracy</string>
+    <string name="air_quality_accuracy_medium">Medium Accuracy</string>
+    <string name="air_quality_accuracy_high">High Accuracy</string>
+
+    <string-array name="settings_list">
+        <item>Basic Settings</item>
+        <item>Calibration Settings</item>
+        <item>Sensor Fusion Settings</item>
+        <item>Accelerometer Calibration</item>
+        <item>Cloud Settings</item>
+    </string-array>
+
+    <string name="settings_saved">Settings saved</string>
+
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="title_basic_settings">Basic</string>
+    <string name="label_sensor_combination">Sensor Combination</string>
+    <string name="label_sensor_fusion_combination">Sensor Fusion Combination</string>
+    <string name="label_imu_sensor_combination">IMU Sensor Combination</string>
+    <string name="label_environmental_sensor_enabled">Environmental sensors enabled</string>
+    <string name="label_gas_sensor_enabled">Gas sensor enabled</string>
+    <string name="label_ambient_light_sensor_enabled">Ambient light sensor enabled</string>
+    <string name="label_proximity_sensor_enabled">Proximity sensor enabled</string>
+    <string name="label_accelerometer_range">Accelerometer Range</string>
+    <string name="label_accelerometer_rate">Accelerometer Rate</string>
+    <string name="label_gyroscope_range">Gyroscope Range</string>
+    <string name="label_gyroscope_rate">Gyroscope Rate</string>
+    <string name="label_magnetometer_rate">Magnetometer Rate</string>
+    <string name="label_environmental_rate">Environmental Rate</string>
+    <string name="label_gas_rate">Gas Rate</string>
+    <string name="label_proximity_ambient_light_rate">Proximity/Ambient Light Rate</string>
+    <string name="label_proximity_mode">Proximity Mode</string>
+    <string name="label_ambient_light_mode">Ambient Light Mode</string>
+    <string name="label_operation_mode">Operation Mode</string>
+    <string name="label_sensor_fusion_rate">Sensor Fusion Rate</string>
+    <string name="label_integration_engine_rate">Integration Engine Rate</string>
+    <string name="pref_sensor_fusion_enabled">Sensor Fusion Enabled</string>
+    <string name="pref_sensor_fusion_raw_enabled">Sensor Fusion Raw Enabled</string>
+    <string name="label_calibration_mode">Calibration Mode</string>
+    <string name="label_auto_calibration_mode">Auto Calibration Mode</string>
+    <string name="label_accelerometer_calibration_mode">Accelerometer Calibration Mode</string>
+    <string name="label_gyroscope_calibration_mode">Gyroscope Calibration Mode</string>
+    <string name="label_magnetometer_calibration_mode">Magnetometer Calibration Mode</string>
+    <string name="label_proximity_hysteresis">Proximity Hysteresis</string>
+    <string name="proximity_hysteresis_dialog_message">Set low (off) and high (on) threshold for proximity sensor.</string>
+    <string name="label_calibrate_proximity_sensor">Calibrate Proximity Sensor</string>
+    <string name="proximity_calibration_dialog_title">Proximity Calibration</string>
+    <string name="proximity_calibration_dialog_message">Please remove any obstructions from the proximity sensor and press start.</string>
+    <string name="proximity_calibration_start">Start</string>
+    <string name="proximity_calibration_started">Calibrating, please wait…</string>
+    <string name="proximity_calibration_complete">Proximity sensor calibrated.</string>
+    <string name="label_temperature_unit">Temperature Unit</string>
+
+    <string name="pref_button_sendlink_key">pref_button_sendlink</string>
+    <string name="pref_set_useremail_key">pref_set_useremail</string>
+    <string name="pref_set_webapplink_key">pref_set_webapplink</string>
+    <string name="pref_switch_webapplink_key">pref_switch_webapplink</string>
+    <string name="pref_guid_key">pref_guid</string>
+    <string name="pref_userid_key">pref_userid</string>
+    <string name="pref_webapplink_key">pref_webapplink</string>
+    <string name="pref_useremail_key">pref_useremail</string>
+    <string name="pref_iftttapikey_key">pref_iftttapikey</string>
+    <string name="pref_button_set_iftttapikey_key">pref_button_set_iftttapikey</string>
+    <string name="pref_button_sync_iftttapikey_key">pref_button_get_iftttapikey</string>
+    <string name="pref_button_save_key">pref_save</string>
+    <string name="pref_apply_ifttt_apikey_key">pref_apply_ifttt_apikey</string>
+    <string name="pref_switch_ifttt_enable_key">pref_switch_ifttt_enable</string>
+    <string name="pref_set_trigger_interval_key">pref_set_trigger_interval</string>
+    <string name="pref_switch_ifttt_temperature_key">pref_switch_ifttt_temperature</string>
+    <string name="pref_switch_ifttt_pressure_key">pref_switch_ifttt_pressure</string>
+    <string name="pref_switch_ifttt_button_key">pref_switch_ifttt_button</string>
+    <string name="pref_switch_ifttt_humidity_key">pref_switch_ifttt_humidity</string>
+    <string name="pref_switch_cloud_historical_key">pref_switch_cloud_historical</string>
+    <string name="pref_switch_cloud_alert_key">pref_switch_cloud_alert</string>
+    <string name="pref_switch_cloud_control_key">pref_switch_cloud_control</string>
+    <string name="pref_switch_cloud_assettracking_key">pref_switch_cloud_assettracking</string>
+    <string name="pref_switch_cloud_3dgame_key">pref_switch_cloud_3dgame</string>
+    <string name="pref_category_cloud_iotapps_key">pref_category_cloud_iotapps</string>
+
+
+    <string name="pref_button_start_calibration">Start calibration</string>
+    <string name="pref_reset_to_defaults">Reset to defaults</string>
+    <string name="pref_read_conf_from_nv">Read configuration from NV</string>
+    <string name="pref_write_conf_to_nv">Write configuration to NV</string>
+    <string name="pref_button_sendlink">Send</string>
+    <string name="pref_set_useremail">Email</string>
+    <string name="pref_set_webapplink">URL</string>
+    <string name="pref_switch_webapplink">Cloud Link Generated</string>
+    <string name="pref_switch_cloud_enable">Enable Cloud</string>
+    <string name="pref_switch_cloud_historical">Historical</string>
+    <string name="pref_switch_cloud_alert">Alerting</string>
+    <string name="pref_switch_cloud_control">Control</string>
+    <string name="pref_switch_cloud_assettracking">Tracking</string>
+    <string name="pref_switch_cloud_3dgame">3D Game</string>
+
+    <string name="label_wearable_logger">Logging enabled</string>
+
+    <string name="title_calibration_settings">Calibration</string>
+    <string name="label_current_calibration_mode">Current calibration mode</string>
+    <string name="cal_apply">Apply</string>
+    <string name="cal_matrix_apply">Matrix apply</string>
+    <string name="cal_update">Update</string>
+    <string name="cal_matrix_update">Matrix update</string>
+    <string name="cal_static_coeffs">Initialise from Static Coeffs</string>
+    <string name="cal_ref_magnitude">Reference Magnitude</string>
+    <string name="cal_magnitude_range">Magnitude Range</string>
+    <string name="cal_mu">mu</string>
+    <string name="cal_magnitude_alpha">Magnitude Alpha</string>
+    <string name="cal_magnitude_gradient_threshold">Magnitude Gradient Threshold</string>
+    <string name="cal_offset_mu">Offset Mu</string>
+    <string name="cal_matrix_mu">Matrix Mu</string>
+    <string name="cal_error_alpha">Error Alpha</string>
+    <string name="cal_error_threshold">Error Threshold</string>
+    <string name="cal_state_overlay">Show calibration state overlay</string>
+    <string name="cal_load_vecmat">Load vector/matrix from file</string>
+    <string name="cal_save_vecmat">Save vector/matrix to file</string>
+    <string name="store_to_nv">Store configuration to NV</string>
+    <string name="reset_cur_set">Reset Calibration and SF data</string>
+
+    <string name="title_sfl_settings">SFL Coefficients</string>
+    <string name="title_acc_settings">ACC Calibration</string>
+    <string name="sfl_beta_a">Beta A</string>
+    <string name="sfl_beta_m">Beta M</string>
+
+    <string name="file_select">Select File</string>
+    <string name="empty_file_list">No files found.</string>
+    <string name="acc_calibration_example">Place the device on a horizontal flat surface with the LED upwards and press start.</string>
+    <string name="acc_calibration_example_iot_plus">Place the device on a horizontal flat surface with the logo upwards and press start.</string>
+    <string name="acc_calibration_start">Calibrating, please wait…</string>
+    <string name="acc_calibration_done">Calibrated!</string>
+    <string name="oneshot_calibration_complete">One-shot calibration complete</string>
+    <string name="sensor_oneshot_calibration_complete">%s one-shot calibration complete</string>
+    <string name="sensor_oneshot_calibration_error">%s one-shot calibration error</string>
+
+    <string name="connect_to_get_id">Please enable cloud to get a user ID.</string>
+    <string name="send_link_start">Sending cloud application URL, please wait…</string>
+    <string name="send_link_done">Email with cloud application URL sent successfully</string>
+    <string name="send_link_error">ERROR: unable to send web app link</string>
+    <string name="get_cloud_ekids_error">ERROR: Unable to get EK-IDs from cloud</string>
+    <string name="get_cloud_ekids_empty">There is no EK-ID for the app</string>
+    <string name="get_cloud_ekids_empty_userid">Warning: No User ID</string>
+    <string name="get_cloud_data_error">ERROR: Unable to get data from cloud</string>
+    <string name="get_cloud_data_empty">There is no data for the selected sensor</string>
+    <string name="get_cloud_data_not_valid_request">Request is not valid</string>
+    <string name="post_rule_error">ERROR: Unable to post alerting rule</string>
+    <string name="post_rule_success">Rule sent</string>
+    <string name="post_rule_not_valid_request">Request is not valid</string>
+    <string name="get_rules_error">ERROR: Unable to get rules from cloud</string>
+    <string name="get_rules_empty">There is no rule for the app</string>
+    <string name="get_rules_empty_userid">Warning: No User ID</string>
+
+    <string name="post_control_rule_error">ERROR: Unable to post control rule</string>
+    <string name="post_control_rule_success">Control rule sent</string>
+    <string name="post_control_rule_not_valid_request">Request is not valid</string>
+    <string name="get_control_rules_error">ERROR: Unable to get control rules from cloud</string>
+    <string name="get_control_rules_empty">There is no control rule for the app</string>
+    <string name="get_control_rules_empty_userid">Warning: No User ID</string>
+
+    <string name="post_asset_tag_error">ERROR: Unable to post asset tag</string>
+    <string name="post_asset_tag_success">Asset tag sent</string>
+    <string name="post_asset_tag_not_valid_request">Request is not valid</string>
+
+    <string name="post_amazon_account_error">ERROR: Unable to update amazon account info</string>
+    <string name="post_amazon_account_success">Amazon account info updated</string>
+    <string name="avs_logout">Logged out successfully</string>
+    <string name="post_amazon_account_not_valid_request">Request is not valid</string>
+
+    <string name="connectivity_error">No internet connection\nCheck your mobile data or Wi-Fi</string>
+    <string name="get_cloud_userid_error">ERROR: unable to get user ID from cloud.</string>
+    <string name="post_data_to_ifttt_error">ERROR: Unable to post data to IFTTT</string>
+    <string name="post_data_to_ifttt_success">Data sent</string>
+    <string name="send_device_app_link_info_done">Device application link info sent</string>
+    <string name="send_device_app_link_info_error">ERROR: unable to send device application link info</string>
+    <string name="send_device_done">EKDevice info sent</string>
+    <string name="send_device_error">ERROR: unable to send EKDevice</string>
+    <string name="send_iotapp_done">IoT app info sent</string>
+    <string name="send_iotapp_error">ERROR: unable to send IoT app info</string>
+
+    <string name="title_ifttt_settings">IFTTT Settings</string>
+    <string name="pref_switch_ifttt_enable">Enable IFTTT</string>
+    <string name="pref_set_trigger_interval">Event generation period (sec)</string>
+    <string name="pref_switch_ifttt_temperature">Temperature</string>
+    <string name="pref_switch_ifttt_humidity">Humidity</string>
+    <string name="pref_switch_ifttt_pressure">Pressure</string>
+    <string name="pref_switch_ifttt_button">Button</string>
+    <string name="pref_ifttt_apikey">IFTTT</string>
+    <string name="pref_ifttt_apikey_dialog_title">Insert IFTTT key</string>
+    <string name="pref_button_save">Save</string>
+    <string name="pref_apply_iftttapikey">API Key</string>
+    <string name="pref_button_sync_iftttapikey">Retrieve from cloud</string>
+    <string name="pref_button_set_iftttapikey">Set</string>
+    <string name="send_cloud_ifttt_apikey_error">ERROR: unable to send the applied Web Hook Key to the
+        cloud
+    </string>
+    <string name="get_cloud_ifttt_apikey_error">Unable to get the IFTTT key or IFTTT key not found</string>
+    <string name="get_cloud_userid_mismatch">ERROR: User ID mismatch. Please, contact your
+        administrator.
+    </string>
+
+
+    <string name="hdata_spinner_device_title">Select device</string>
+    <string name="hdata_spinner_sensor_title">Select sensor</string>
+    <string name="pref_switch_cloud_enable_key">pref_switch_cloud_enable_key</string>
+    <string-array name="comparison_operators">
+        <item> = </item>
+        <item> &gt; </item>
+        <item> &gt;= </item>
+        <item> &lt; </item>
+        <item> &lt;= </item>
+    </string-array>
+
+    <string-array name="sensor_array">
+        <item> Temperature </item>
+        <item> Humidity </item>
+        <item> Pressure </item>
+        <item> AirQuality </item>
+        <item> Brightness </item>
+    </string-array>
+
+    <string-array name="sensors_array">
+        <item> Temperature </item>
+        <item> Humidity </item>
+        <item> Pressure </item>
+        <item> AirQuality </item>
+        <item> Brightness </item>
+        <item> Proximity </item>
+    </string-array>
+
+    <string-array name="conditions_array">
+        <item> Weather </item>
+        <item> Forex </item>
+    </string-array>
+
+    <string-array name="trigger_options">
+        <item> Led </item>
+        <!--<item> Buzzer </item>-->
+    </string-array>
+
+    <string-array name="actuator_values">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+</resources>

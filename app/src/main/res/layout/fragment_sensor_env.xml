@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/globalView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <include layout="@layout/sensor_view_temperature" />
+            <include layout="@layout/sensor_view_ambient_light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <include layout="@layout/sensor_view_humidity" />
+            <include layout="@layout/sensor_view_air_quality" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <include layout="@layout/sensor_view_pressure" />
+            <include layout="@layout/sensor_view_proximity" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/buttonOverlay"
+        android:visibility="gone"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        app:iiv_background_color="#4888"
+        app:iiv_corner_radius="22dp"
+        app:iiv_color="@color/md_blue_600"
+        app:iiv_icon="gmd-radio-button-checked" />
+
+</RelativeLayout>

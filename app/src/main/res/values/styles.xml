@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2016-2017 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.Light.DarkToolbar.ActionBar">
+        <item name="android:displayOptions">useLogo|showHome|showCustom</item>
+        <item name="colorPrimary">@color/navigation_bar_background</item>
+        <item name="colorPrimaryDark">@color/status_bar_background</item>
+        <item name="colorAccent">@color/material_drawer_primary_dark</item>
+    </style>
+
+    <!-- Drawer theme. -->
+    <style name="DrawerTheme" parent="MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="android:displayOptions">useLogo|showHome|showCustom</item>
+        <item name="colorPrimary">@color/navigation_bar_background</item>
+        <item name="colorPrimaryDark">@color/status_bar_background</item>
+        <item name="colorAccent">@color/material_drawer_primary_dark</item>
+    </style>
+
+</resources>

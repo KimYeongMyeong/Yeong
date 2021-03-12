@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *******************************************************************************
+ *
+ * Copyright (C) 2018 Dialog Semiconductor.
+ * This computer program includes Confidential, Proprietary Information
+ * of Dialog Semiconductor. All Rights Reserved.
+ *
+ *******************************************************************************
+-->
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/icon_temp_filled"
+    android:clipOrientation="vertical"
+    android:gravity="bottom" />
